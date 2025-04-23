@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url( "https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{  
+    font-family: 'Playfair+Display: ital', Arial, Helvetica, sans-serif;
+    
+}
+
+    body{
+        background: linear-gradient(to right, #E3D4FF, #AC80FF); /* esse comando serve para fazer o degrade, de onde ele começa e até onde vai   */
+        font-size: 16px;  
+    }
+
+
+    main{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #3a226696;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+    }
+
+
+    h1{
+        font-family: 'Orbitron';
+        font-size: 3em;
+        color: #24153F;
+        text-align: center;
+        text-shadow: 1px 1px 2px #240c52a1; /* esse comando servepara sombrear */
+    }
+
+
+    h2{
+        font-family: 'Orbitron';
+        font-size: 2em;
+        color: #340094;
+    }
+
+
+    p{
+        text-align: justify;
+        font-size: 1em;
+    }
+
+
+    a{ 
+        /*SERVE PARA MUDAR A COR DO LINK E O TAMANHO DA FONTE*/
+        color: purple;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: rgba(226, 195, 252, 0.651);
+        border: 1px solid rgb(197, 130, 236);
+        padding: 0px 1px 0px 1px;
+    }
+
+
+    a:hover{  
+        /*SERVE PARA COLOCAR UMA COR DE FUNDO QUAL PASSAR O    MOUSE EM CIMA DO LINK*/
+        color: black;
+        text-decoration: underline;
+    }
+
+    a:active{ 
+        /*SERVE PARA COLOCAR UMA COR DE FUNDO QUAL CLICAR NO LINK*/
+        color: rgb(17, 0, 255);
+    }
