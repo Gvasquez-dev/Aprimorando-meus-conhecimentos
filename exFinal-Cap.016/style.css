@@ -1,3 +1,7 @@
+@charset "UTF-8";
+
+@import url( 'https://fonts.google.com/specimen/Bebas+Neue?query=bebas' );
+
 @font-face {
     font-family: 'idroid' ;
     src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype'), url('pacote-projeto-d010/fontes/idroid.otf');
@@ -7,6 +11,8 @@
 
     body{
         background-color: rgb(113, 218, 165); 
+        text-align: justify
+        ;
         font-size: 16px;  
         margin: 0;
          padding: 0;
@@ -14,10 +20,11 @@
 
     header{
         background: linear-gradient(to bottom, #19ce89, #0a5c3c); 
-        font-family:  Arial, Helvetica sans-serif;
-            color: #ffffff;
-            padding: 20px;
-            margin: 0px;
+         box-shadow: 5px 5px 5px #00000060;
+        font-family:  Arial, verdana, Helvetica, sans-serif;
+        color: #ffffff;
+        padding: 20px;
+        margin: 0px;
     }
 
     header > h1 {
@@ -56,7 +63,7 @@
     main{
         background-color: white;
         border-radius: 1px;
-        box-shadow: 5px 5px 15px #00000060;
+        box-shadow: 5px 5px 5px #00000060;
         width: 60%;
         max-width: 1000px;
         padding: 30px;
@@ -97,7 +104,7 @@
 
     #foto-bugdroid {
         width: 100%;
-        height: 400px;
+        height: 300px;
         border-radius: 1px;
         display: block;
         margin: auto;
@@ -106,7 +113,7 @@
     main#segundo{
         background-color:green;
         border-radius: 1px;
-        box-shadow: 5px 5px 15px #00000060;
+        box-shadow: 5px 5px 5px #00000060;
         width: 60%;
         max-width: 1000px;
         padding: 30px;
@@ -133,6 +140,7 @@
     div{
         text-decoration: underline;
         font-family: Arial, Helvetica, sans-serif;
+        
     }
 
     main#borda{
@@ -147,5 +155,10 @@
         margin: 0px; 
     }
 
+    a#link{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+    }
     
     
